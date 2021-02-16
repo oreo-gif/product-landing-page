@@ -1,0 +1,83 @@
+#header{
+  background-color: #c0e6f0
+}
+#background{
+  background-color: #52B2BF;
+}
+#hr-one{
+  position:absolute;
+  bottom: 10px;
+  height:10px;
+  color:black;
+}
+#name{
+  text-align: center;
+  position: absolute;
+  bottom: 150px;
+  right: 200px;
+  font-size: 60px;
+  font-family: Abel, sans-serif;
+}
+#position{
+  
+  font-size: 35px;
+}
+#footer{
+  color: grey;
+  font-size: 20px;
+  position: absolute;
+  left: 600px;
+  padding: 2px;
+  
+}
+.nav-bar{
+
+   position: fixed;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  grid-template-columns: 300px 1fr;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size:30px;
+  text-decoration: none;
+  margin:auto;
+}
+.navbar a{
+  float: left;
+  display: block;
+  text-align:center;
+  padding: 15px 16px;
+  text-decoration:none;
+}
+#video{
+  border:solid;
+  border-width: 5px;
+  border-radius: 2%;
+  left: 20px;
+}
+#tform{
+  font-size: 24px;
+  padding:0px;
+  bottom-margin: 0px;
+}
+.form-element{
+  font-size: 20px;
+  font-family: monospace;
+  color: #333333;
+}
+#full-form{
+  position: absolute;
+  left: 40px;
+  right: 700px;
+  top: 700px;
+  background-color: rgb(214, 237, 240);
+}
+  @media (max-height: 800px){ 
+    p {
+    font-size: 20px;
+      }
+  }
